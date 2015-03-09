@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Simple Javascript live validation Form by Vishu Mahabir - NO module + no mailer</title>		
+		<link rel="stylesheet" href="css/style.css">
+	</head>	
+<body>
+	<div class="container">
+		<div>
+			<h1>A simple Live validation form buildt with plain Javascript</h1>
+			<p>no mailer has been attached to this form and it's not build in a module pattern. </p>
+		</div>
+		<form id="nawForm" name="nawform" method="post" onsubmit="return validate();" action="">	
+			<div>
+				<label for="firstname">First Name</label>
+			</div>
+			<div>
+				<input id="firstname" type="text" name="fname"><div style = "display:none;" id="fillinFname"><p></p></div>
+			</div>
+			<div>	
+				<label for="lastname">Last Name</label>
+			</div>
+			<div>	
+				<input id="lastname" type="text" name="lname"><div style = "display:none;" id="fillinLname"><p></p></div>
+			</div>
+			<div>
+				<label for="email">E-Mail</label>
+			</div>
+			<div>
+				<input id="email" type="email" name="email"><div style = "display:none;" id="fillinEmail"><p></p></div>			
+			</div>
+			<div>
+				<label for="textarea">Message</label>
+			</div>
+			<div>
+				<textarea id="message" rows="10" name="msg"></textarea><div style = "display:none;" id="fillinMsg"><p></p></div>
+			</div>
+			<div>
+		  		<input type="submit" value="Submit">
+			</div>
+
+		</form>
+	</div>
+	<script type="text/javascript" src="js/validate.js"></script>
+</body>
+
+</html>
