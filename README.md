@@ -25,7 +25,7 @@ It's recommended to first load the basics and afterwards load in the js files. P
 
 **validator_module.js**
 
-The Javascript has NOT been built up in a Module Pattern. It contains the full functionality for the validation including the initialisation of the function.
+The Javascript has **NOT** been built up in a Module Pattern. Use with caution when implementing it in your own build. I also have a version in a [module pattern.](https://github.com/vmahabir/Formvalidation_module)  It contains the full functionality for the validation including the initialisation of the function.
 
 The function starts by declaring the form by ID and identifies the form elements by name: 
 
